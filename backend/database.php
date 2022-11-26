@@ -1,8 +1,8 @@
 <?php
-$servername = "testpep.c32exyjbusk5.ap-south-1.rds.amazonaws.com";
-$username = "admin";
-$password = "PFuPWrGANwy90cvovImR";
-$dbname = "testvk";
+$servername = "crud-db.cf2xruxhoay3.us-east-1.rds.amazonaws.com";
+$username = "username";
+$password = "password";
+$dbname = "crud-db";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
